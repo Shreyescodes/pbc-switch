@@ -1,5 +1,5 @@
 Requiremets:
--DE(VS code prefered)
+- IDE(VS code prefered)
 - Install NodeJS
 - Extensions/settings( Live server, Prettier, Line Wrap, Tab size from 4 to 2)
 Create a React App
