@@ -1,0 +1,39 @@
+INLINE CSS
+<html style="background:blue">
+</html>
+
+This sets the background to blue color. It is recommended to be only used when we require single eleemt 
+to make changes
+
+INTERNAL CSS
+<html>
+    <head>
+        <style>
+            html {
+                 background:red; // {css code lines}
+                 }
+        </style>
+    </head>        
+</html>
+
+Applicable to single page html webpages
+sepaerete style.css file we can use unlike INLINE CSS which is written in html file. 
+
+EXTERNAL CSS
+
+We need to link thia css file with html file.
+It is recommended to be used when we require multiple html pages.
+
+index.html file will look like this
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css"/> 
+    </head>        
+</html>
+
+styles.css file will look like this
+
+html {
+        background:red; // {css code lines}
+     }
